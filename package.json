@@ -1,0 +1,7 @@
+{
+  "name": "framework-comp",
+  "scripts": {
+    "dev": "pnpm --filter=\"./apps/**\" dev",
+    "build": "pnpm --filter=\"./apps/**\" build"
+  }
+}
