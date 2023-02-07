@@ -14,7 +14,7 @@ function filterLog() {
 
     const jsoutput = rows.filter((row) => row.includes('.js'));
 
-    return jsoutput.join('\n');
+    return jsoutput.join('\n\n');
   } catch (error) {
     throw new Error('No log file found');
   }
