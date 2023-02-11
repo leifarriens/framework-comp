@@ -12,6 +12,9 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <div v-for="i in 1000">
+    <h3>{{i - 1}}</h3>
+  </div>
 </template>
 
 <style scoped>

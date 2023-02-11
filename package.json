@@ -3,7 +3,8 @@
   "scripts": {
     "start": "pnpm build 2>&1 | tee build.log && ts-node -T ./scripts/write-log.ts",
     "dev": "pnpm --filter=\"./apps/**\" dev",
-    "build": "pnpm --filter=\"./apps/**\" build"
+    "build": "pnpm --filter=\"./apps/**\" build",
+    "preview": "pnpm --filter=\"./apps/**\" preview"
   },
   "devDependencies": {
     "@types/node": "^18.11.19"

@@ -1,9 +1,9 @@
-import { useState } from 'preact/hooks'
-import preactLogo from './assets/preact.svg'
-import './app.css'
+import { useState } from 'preact/hooks';
+import preactLogo from './assets/preact.svg';
+import './app.css';
 
 export function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -27,6 +27,11 @@ export function App() {
       <p class="read-the-docs">
         Click on the Vite and Preact logos to learn more
       </p>
+      {Array.from({ length: 1000 }, (_, i) => (
+        <div>
+          <h3>{i}</h3>
+        </div>
+      ))}
     </>
-  )
+  );
 }

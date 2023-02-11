@@ -18,6 +18,11 @@ function App() {
           Learn Solid
         </a>
       </header>
+      {Array.from({ length: 1000 }, (_, i) => (
+        <div>
+          <h3>{i}</h3>
+        </div>
+      ))}
     </div>
   );
 }

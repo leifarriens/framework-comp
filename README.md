@@ -1,11 +1,11 @@
 # framework-comp
 
-apps/svelte build: dist/assets/index-c88b134a.js    5.49 kB │ gzip: 2.53 kB
+apps/svelte build: dist/assets/index-f66d8683.js    5.92 kB │ gzip: 2.70 kB
 
-apps/preact build: dist/assets/index-b41fd373.js    13.46 kB │ gzip: 5.46 kB
+apps/preact build: dist/assets/index-55950edb.js    13.53 kB │ gzip: 5.49 kB
 
-apps/solid build: dist/assets/index-99572bf7.js      7.44 kB │ gzip: 3.18 kB
+apps/solid build: dist/assets/index-20a610e0.js      7.58 kB │ gzip: 3.25 kB
 
-apps/react build: dist/assets/index-1c86dd99.js   143.55 kB │ gzip: 46.17 kB
+apps/react build: dist/assets/index-4382467f.js   143.62 kB │ gzip: 46.20 kB
 
-apps/vue build: dist/assets/index-63291fe9.js   54.44 kB │ gzip: 21.97 kB
+apps/vue build: dist/assets/index-3096f406.js   54.98 kB │ gzip: 22.15 kB
