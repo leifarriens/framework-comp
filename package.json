@@ -7,6 +7,8 @@
     "preview": "pnpm --filter=\"./apps/**\" preview"
   },
   "devDependencies": {
-    "@types/node": "^18.11.19"
+    "@types/node": "^18.11.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
   }
 }
